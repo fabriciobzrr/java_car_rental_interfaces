@@ -45,8 +45,6 @@ public class Program {
         IO.println("Total a pagar: R$ " + String.format("%.2f", carRental.getInvoice().totalPayment()));
         IO.println("======================================");
 
-
         sc.close();
-
     }
 }
